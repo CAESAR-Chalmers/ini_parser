@@ -1,0 +1,23 @@
+{
+    "name": "ini-parser",
+    "version": "1.0.0",
+    "description": "simplistic library to read ini files",
+    "keywords": "configuration,filetypes,parsing,storage",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CAESAR-Chalmers/ini_parser"
+    },
+    "authors": [
+        {
+            "name": "Todd Bergegårdh",
+            "email": "bergegardh.todd@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/CAESAR-Chalmers/ini_parser",
+    "frameworks": "*",
+    "platforms": "*",
+    "headers": [
+        "ini_parser.h"
+    ]
+}
