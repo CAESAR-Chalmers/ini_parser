@@ -1,6 +1,6 @@
 {
     "name": "ini-parser",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "simplistic library to read ini files",
     "keywords": "configuration,filetypes,parsing,storage",
     "repository": {

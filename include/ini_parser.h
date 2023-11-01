@@ -24,6 +24,10 @@ enum Result
     WrongKey,
 };
 
-enum Result read_ini_value(const char *ini_file, const char *section, const char *key, struct StringSlice *output);
+#ifdef __cplusplus
+extern "C"
+#endif
+    enum Result
+    read_ini_value(const char *ini_file, const char *section, const char *key, struct StringSlice *output);
 
 #endif
